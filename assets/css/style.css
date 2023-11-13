@@ -574,6 +574,13 @@ progress {
   height: auto;
 }
 
+.round-avatar {
+  border-radius: 50%;  /* Makes the image round */
+  object-fit: cover;   /* Keeps the aspect ratio */
+  width: 70%;         /* Adjusts the width, this can be changed or removed if already set in the HTML */
+  height: auto;       /* Adjusts the height to maintain aspect ratio */
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -7413,6 +7420,7 @@ textarea.form-control-lg {
 
 .rounded-pill {
   border-radius: 50rem !important;
+  border: transparent;
 }
 
 .rounded-top {
@@ -10785,7 +10793,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 .btn-rounded:hover span {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
 }
 
 .display-2 {
@@ -11126,7 +11134,7 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 .contact-box__info--title {
-  color: #fff;
+  color: #9926f0;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -11159,7 +11167,7 @@ textarea.form-control-lg {
   }
 }
 .footer-sm a:hover {
-  color: #9926f0;
+  color: black;
 }
 
 .campany-list {
